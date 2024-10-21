@@ -16,7 +16,6 @@
 		80391BD82C2EA78500FCF96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80391BD72C2EA78500FCF96B /* Assets.xcassets */; };
 		80391BDA2C2FFC9F00FCF96B /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80391BD92C2FFC9F00FCF96B /* OrderModel.swift */; };
 		805BB9792CC63A9600A3B479 /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805BB9782CC63A8E00A3B479 /* APIKey.swift */; };
-		805BB97B2CC63AD600A3B479 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 805BB97A2CC63AD600A3B479 /* APIKey.plist */; };
 		806A3ABC2C64AF9500F1970C /* OrderRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806A3ABB2C64AF9500F1970C /* OrderRecordView.swift */; };
 		80AD233E2C60CD8B00CCB8D7 /* OrderHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AD233D2C60CD8B00CCB8D7 /* OrderHistoryView.swift */; };
 		80AE9F962C33E1A400758577 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F952C33E1A400758577 /* DataManager.swift */; };
@@ -24,6 +23,7 @@
 		80AE9F9A2C35BBA500758577 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F992C35BBA500758577 /* MenuView.swift */; };
 		80AE9F9C2C3BEDFE00758577 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F9B2C3BEDFE00758577 /* Tab.swift */; };
 		80AE9FA02C4A4B2E00758577 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F9F2C4A4B2E00758577 /* CheckoutView.swift */; };
+		80E1F6072CC659320011C486 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E1F6062CC659320011C486 /* APIKey.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +37,6 @@
 		80391BD72C2EA78500FCF96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80391BD92C2FFC9F00FCF96B /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
 		805BB9782CC63A8E00A3B479 /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
-		805BB97A2CC63AD600A3B479 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 		806A3ABB2C64AF9500F1970C /* OrderRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderRecordView.swift; sourceTree = "<group>"; };
 		80AD233D2C60CD8B00CCB8D7 /* OrderHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderHistoryView.swift; sourceTree = "<group>"; };
 		80AE9F952C33E1A400758577 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -45,6 +44,7 @@
 		80AE9F992C35BBA500758577 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		80AE9F9B2C3BEDFE00758577 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		80AE9F9F2C4A4B2E00758577 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		80E1F6062CC659320011C486 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 		805BB9742CC6382000A3B479 /* APIKey */ = {
 			isa = PBXGroup;
 			children = (
-				805BB97A2CC63AD600A3B479 /* APIKey.plist */,
+				80E1F6062CC659320011C486 /* APIKey.plist */,
 			);
 			path = APIKey;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805BB97B2CC63AD600A3B479 /* APIKey.plist in Resources */,
+				80E1F6072CC659320011C486 /* APIKey.plist in Resources */,
 				80391BD82C2EA78500FCF96B /* Assets.xcassets in Resources */,
 				80391BCB2C243D7600FCF96B /* Preview Assets.xcassets in Resources */,
 			);
