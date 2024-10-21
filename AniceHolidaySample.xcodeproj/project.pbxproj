@@ -23,7 +23,7 @@
 		80AE9F9A2C35BBA500758577 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F992C35BBA500758577 /* MenuView.swift */; };
 		80AE9F9C2C3BEDFE00758577 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F9B2C3BEDFE00758577 /* Tab.swift */; };
 		80AE9FA02C4A4B2E00758577 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AE9F9F2C4A4B2E00758577 /* CheckoutView.swift */; };
-		80E1F6072CC659320011C486 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E1F6062CC659320011C486 /* APIKey.plist */; };
+		80E1F6092CC65B840011C486 /* APIKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80E1F6082CC65B840011C486 /* APIKey.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +44,7 @@
 		80AE9F992C35BBA500758577 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		80AE9F9B2C3BEDFE00758577 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		80AE9F9F2C4A4B2E00758577 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		80E1F6062CC659320011C486 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
+		80E1F6082CC65B840011C486 /* APIKey.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = APIKey.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 		805BB9742CC6382000A3B479 /* APIKey */ = {
 			isa = PBXGroup;
 			children = (
-				80E1F6062CC659320011C486 /* APIKey.plist */,
+				80E1F6082CC65B840011C486 /* APIKey.plist */,
 			);
 			path = APIKey;
 			sourceTree = "<group>";
@@ -173,7 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80E1F6072CC659320011C486 /* APIKey.plist in Resources */,
+				80E1F6092CC65B840011C486 /* APIKey.plist in Resources */,
 				80391BD82C2EA78500FCF96B /* Assets.xcassets in Resources */,
 				80391BCB2C243D7600FCF96B /* Preview Assets.xcassets in Resources */,
 			);
